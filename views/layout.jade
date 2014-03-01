@@ -7,8 +7,10 @@ html
     meta(name='description', content='')
     meta(name='author', content='')
     title #{title} - Starter Template for Bootstrap
+    script(type="text/javascript", src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD1vA-Puxa8K9x24PjaFWAd0E4eqafKk9I&sensor=false')
     != css('styles')
     != js('application')
+    script(type='text/javascript', src='/js/map.js')
   body
     #wrap
       include partials/navigation
